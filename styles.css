@@ -1,0 +1,32 @@
+h1 {
+    font-size: 72px;
+    letter-spacing: -3px;
+    margin-top: 0;
+    margin-bottom:.125em;
+    text-alighn: center;
+    color: #307f38;
+    font-family: helvetica;
+  }
+  
+  p {
+    background: #dbffdf;
+  }
+  
+  figure {
+    border: 1px solid black;
+    padding: 12px;
+    padding-bottom: 24; 
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  p img {
+    float: right;
+    max-width: 60%;
+    margin-left: 20px;
+    margin-bottom: 32px;
+  }
