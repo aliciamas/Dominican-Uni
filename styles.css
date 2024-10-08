@@ -35,7 +35,7 @@ body {
   
   figure.main-image {
     background: palevioletred;
-    border: mediumvioletred;
+    border-color: mediumvioletred;
     color: ffffff;
   }
 
