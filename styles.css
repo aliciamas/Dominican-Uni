@@ -46,6 +46,19 @@ body {
     max-width: 320px;
   }
 
+  figure.section-image.odd {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+  }
+
+  figure.section-image.even {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+  }
 
   p img {
     float: right;
