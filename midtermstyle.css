@@ -24,7 +24,7 @@ body {
   }
   
   figure img {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin-bottom: 12px;
   }
@@ -95,13 +95,13 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid #4169E1;
+    border-bottom: 3px solid black;
     padding-bottom: 9px;
 }
 
 header nav ul {
-  border-top: 1px solid #4169E1;
-  border-bottom: 1px solid #4169E1;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 footer nav ul li a:hover {
