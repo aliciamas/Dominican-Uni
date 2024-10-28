@@ -1,0 +1,129 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+  h1#page-title {
+    font-size: 72px;
+    letter-spacing: -3px;
+    margin-top: 0;
+    margin-bottom:.125em;
+    text-align: center;
+    color: black;
+    font-family: helvetica;
+  }
+
+  h1#article-title {
+    font-size: 48px;
+  }
+
+  figure {
+    border: 2px solid black;
+    padding: 12px;
+    padding-bottom: 24; 
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  figure.main-image {
+    background: #FFA500;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+  }
+
+  figure.section-image {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+    background: #FFA500;
+    border-color: black;
+  }
+
+  figure.section-image.odd {
+    float: right;
+    margin-left: 20px;
+  }
+
+  figure.section-image.even {
+    float: left;
+    margin-right: 20px;
+  }
+
+  p img {
+    float: right;
+    max-width: 60%;
+    margin-left: 20px;
+    margin-bottom: 32px;
+  }
+
+  a {
+    font-weight: bold;
+    color: #FFA500;
+  }
+
+  ul li a {
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li a {
+  color: #FFA500;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 9px;
+}
+
+header nav ul {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer#page-footer {
+  padding: 32px 0;
+  margin-top: 64px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+}
+
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
