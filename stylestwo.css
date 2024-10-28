@@ -17,6 +17,11 @@ body {
     font-size: 48px;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   figure {
     border: 2px solid black;
     padding: 12px;
@@ -24,8 +29,6 @@ body {
   }
   
   figure img {
-    width: 100%;
-    height: auto;
     margin-bottom: 12px;
   }
   
@@ -36,14 +39,13 @@ body {
     font-weight: bold;
   }
 
+@media all and min-width: 768px) {
   figure.section-image {
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 32px;
     max-width: 320px;
-    background: #FFA500;
-    border-color: black;
+    float: right;
+    margin: -20px -62px 32px 20px;
   }
+}
 
   figure.section-image.odd {
     float: right;
@@ -76,13 +78,20 @@ body {
   }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
   list-style: none;
   padding-left: 0;
 }
 
+
+@media all and (min-width:376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+  
+  
 nav ul li a {
   color: #FFA500;
   text-decoration: none;
