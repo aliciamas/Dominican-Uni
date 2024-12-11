@@ -66,7 +66,7 @@ body {
 
   a {
     font-weight: bold;
-    color: blue;
+    color: black;
   }
 
   ul li a {
@@ -139,7 +139,7 @@ footer#page-footer {
 
 #message {
   background: grey;
-  border: 1px solid blue;
+  border: 1px solid black;
   padding: 20px 40px;
   margin: 12px 0;
   border-radius: 4px;
